@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  background-color: blue;
+  flex-direction: column;
+  width: 100%;
+  height: 100vw;
+  align-items: center;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 15px;
+  
+}
+
+.container h1{
+  text-align: center;
+  color: #fff;
+}
+
+.container input, .container textarea{
+  padding: 12px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.container button{
+  width: 20%;
+  margin: 0 auto;
+  padding:13px;
+  border-radius: 10px;
+  font-weight: 900;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid blue;
+  color: blue;
+}
+
+.container button:hover{
+  background-color: blue;
+  color: #fff;
+  border: 1px solid #fff;
+}
